@@ -1,6 +1,8 @@
 package src.Tree.BinaryTree.TreeWithoutGeneric;
 import java.util.Scanner;
 
+// root left right
+
 public class T02_PreOrderTreeBuilt {
     Scanner sc = new Scanner(System.in);
 

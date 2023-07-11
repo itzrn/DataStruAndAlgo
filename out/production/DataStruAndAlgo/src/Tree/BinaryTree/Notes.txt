@@ -1,0 +1,45 @@
+1 - Tree is a Hierarchical(non-Linear) data structure. ---> Like family tree
+
+2 - In normal tree, Node can have as many branches you want,
+    but in Binary tree only two branches a node can have.
+
+3 - Some Terminology to remember
+    Root Node
+    Left child, Right child - sibling Node(node which have same parent node) ---> For Binary tree
+    Leaf Node --> Which have no right or left node
+    ancestors --> All parent of parent till root node, are ancestor of any node
+    descendants - all child of child to highest depth, are descendants
+    Level, sub-tree(left or right)
+    Internal Node - Node with at least one node
+    Depth - Number of edges from root to the node
+    Height - Number of edge to root to the deepest leaf node
+
+4 - A tree which have at-most two children for every node is Binary tree
+
+5 - n nodes => n-1 edges
+
+6 - Degree of a node is number of direct children to that node
+
+7 - Degree of a tree is the highest degree of a node among all the nodes present in the tree.
+
+8 - Binary tree is a tree of degree of 2, nodes can have 0,1 or 2 children
+
+9 - Types of Binary tree
+    1 - Full or strict Binary tree(All nodes have either 0 or 2 children)
+    2 - perfect Binary tree(Internal nodes have 2 children + all leaf nodes are on same level)
+    3 - Complete binary tree
+        1 - All levels are completely filled except possibly the last level
+        2 - last level must have its keys as left as possible
+    4 - Degenerate tree - where parent node have exactly only one child
+        Types of Degenerate tree
+        1 - left Skewed tree
+        2 - Right skewed tree
+
+10 - Representation of a binary Tree
+     1 - Array Representation(used too less, bcz of fixed size)
+     2 - Linked Representation(Effective)
+
+11 - There is three type to traverse the tree
+     1 - preOrder traversal
+     2 - postOrder traversal
+     3 - inOrder traversal
