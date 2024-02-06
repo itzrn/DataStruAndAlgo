@@ -1,5 +1,6 @@
 package src.sorting;
 // time complexity is nlogn
+// worst time complexity is O(n^2)
 public class QuickSort {
     public void quickSort(int[] arr, int low, int high){  // low->0, high->arr.length-1 (doing zero indexing)
         if(low < high){ // if low less than high then only we will go for quick sort

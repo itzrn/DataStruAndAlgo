@@ -1,0 +1,17 @@
+1 - It is a Type of binary Tree
+
+2 - Properties
+    * - All data of nodes of the left subtree should be lesser
+    * - All data of nodes of the right subtree should be greater
+    * - There should be no duplicate data in any node
+    * - left and right should also be Binary search tree(BST)
+
+                            9
+                           /  \
+                          4    11   ---> Binary search tree
+                         /  \    \
+                        2    7    15
+                            /  \    \
+                           5    8    16
+
+    InOrder traversal of a BST gives ascending sorted array(This is the condition that a given BinaryTree is BST or not)
